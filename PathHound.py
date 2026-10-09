@@ -7,9 +7,9 @@ Scans a target domain against a wordlist to discover active/valid paths
 (directories, files, endpoints) using concurrent HTTP requests.
 
 Usage:
-    python3 path_scanner.py -u https://target.com -w wordlist.txt
-    python3 path_scanner.py -u https://target.com -w wordlist.txt -t 20 -o results.txt
-    python3 path_scanner.py -u https://target.com -w wordlist.txt -x php,html,bak
+    python3 PathHound.py -u https://target.com -w wordlist.txt
+    python3 PathHound.py -u https://target.com -w wordlist.txt -t 20 -o results.txt
+    python3 PathHoundPathHound.py -u https://target.com -w wordlist.txt -x php,html,bak
 """
 
 import argparse
